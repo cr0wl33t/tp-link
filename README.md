@@ -8,6 +8,10 @@ _________         _______
 It's a simple script that i've coded, and it's my first.
 Reaver tool is required!, for this script to run
 
+How to download:
+    apt-get install git
+    git clone https://github.com/cr0wl33t/tp-link.git
+
 How to use: 
     Open the terminal, airmon-ng , check for wlan interfaces.
     ( $cd\ ) to the script location, $chmod 755 ./tplink.sh
