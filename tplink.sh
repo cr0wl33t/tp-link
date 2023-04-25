@@ -44,7 +44,7 @@ clear
 read -p "Do a quick wps scan, Press <enter> to start"
 clear
 airmon-ng start $interface 1>/dev/null
-wash -i mon0 ; sleep 15 ; f_tl
+wash -i $interface ; sleep 15 ; f_tl
 read choice
 if [ -z $choice ]; then
 	echo -e "\e[1;31m                  *** Invalid choice or entry. ***\e[0m"
